@@ -1,9 +1,7 @@
-import random
-
 class Student(object): 
     """Represents a student."""
     def __init__(self, name, number):
-        """All scores are initially 0."""
+        """All scores are initially set to 0."""
         self.name = name
         self.scores = []
         for count in range(number):
@@ -36,9 +34,9 @@ class Student(object):
                " ".join(map(str, self.scores))
 
 def main():
-    """A simple test."""
+    import random
+
     print("\nShowing Student List: ")
-    
     print("\nStudent 1")
     student = Student("A", 5)
     for i in range(1, 6):
@@ -74,7 +72,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
