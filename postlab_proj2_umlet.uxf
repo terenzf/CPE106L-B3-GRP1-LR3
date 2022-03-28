@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>150</y>
+      <w>210</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Student
+--
+-name: string
+-scores: int[]
+--
++Student()
++Student(string, int):
++getName(): string
++setScore(int, int): void
++getScore(int): int
++getAverage(): float
++getHighScore(): int
++__eq__(): boolean
++__lt__(): boolean
++__ge__(): boolean
++__str__(): string
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
